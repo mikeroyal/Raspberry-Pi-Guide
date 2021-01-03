@@ -7,9 +7,9 @@
 #### A guide covering Raspberry Pi devices such as the Raspberry Pi 4 Model B and Raspberry Pi 400. Along with a wide variety of operating systems that you can install on your Raspberry Pi device. Also, learn about cool projects that you can build with your Raspberry Pi device.
 
 
-<img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
+**Raspberry Pi 4 Model B**
 
-**Image above is the Raspberry Pi 4 Model B**
+<img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
 
 [Check out the Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
@@ -25,10 +25,9 @@
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
 
+**Raspberry Pi 400 Personal Computer Kit**
 
 <img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
-
-**Image above is the Raspberry Pi 400 Personal Computer Kit**
 
 [Check out the Raspberry Pi 400 Personal Computer Kit](https://www.raspberrypi.org/products/raspberry-pi-400/)
 
@@ -43,10 +42,11 @@
  - Raspberry Pi standard 40 pin GPIO header 
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
+ 
 
+**Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
+
+[Check out Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
 <img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
 
-**Image above is Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
-
-[Check out Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
