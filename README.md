@@ -50,3 +50,31 @@
 
 <img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
 
+
+## Resources
+
+[Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
+
+[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
+
+[Getting Started with Raspberry Pi Projects](https://projects.raspberrypi.org/)
+
+[Online learning for the Raspberry Pi](https://www.raspberrypi.org/training/online/)
+
+[Raspberry Pi Training Program](https://www.raspberrypi.org/training/)
+
+[Raspberry Pi Online Courses on Udemy](https://www.udemy.com/topic/raspberry-pi/)
+
+[Raspberry Pi Online Courses on Coursera](https://www.coursera.org/courses?languages=en&query=raspberry%20pi)
+
+[The Raspberry Pi Platform and Python Programming course on Coursera](https://www.coursera.org/learn/raspberry-pi-platform)
+
+[Learning Raspberry Pi with Online Courses on edX](https://www.edx.org/learn/raspberry-pi)
+
+[Raspberry Pi Online Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/raspberry-pi)
+
+[Getting Started with Raspberry Pi course on FutureLearn](https://www.futurelearn.com/courses/getting-started-with-your-raspberry-pi)
+
+[Home Assistant on Raspberry Pi](https://www.home-assistant.io/getting-started/)
+
+[PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
