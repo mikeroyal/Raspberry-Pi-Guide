@@ -78,3 +78,46 @@
 [Home Assistant on Raspberry Pi](https://www.home-assistant.io/getting-started/)
 
 [PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
+
+
+## Raspberry Pi Operating Systems
+
+[Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+
+[Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
+
+[OmniROM(Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
+
+[Manjaro Linux ARM](https://manjaro.org/download/#ARM)
+
+[Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4)
+
+[Ubuntu MATE for Raspberry Pi](https://ubuntu-mate.org/ports/raspberry-pi/)
+
+[Ubuntu Desktop for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+
+[Ubuntu Core on a Raspberry Pi](https://ubuntu.com/download/raspberry-pi-core)
+
+[Ubuntu Server for ARM](https://ubuntu.com/download/server/arm)
+
+[Fedora ARM](https://arm.fedoraproject.org)
+
+[Kali Linux for the Raspberry Pi](https://www.kali.org/docs/arm/kali-linux-raspberry-pi/)
+
+[Twister OS](https://twisteros.com/)
+
+[TitusPi](https://github.com/ChrisTitusTech/TitusPi)
+
+[RetroArch](https://www.retroarch.com/?page=platforms)
+
+[RetroPie](https://retropie.org.uk/)
+
+[LibreELEC](https://libreelec.tv/)
+
+[OSMC](https://osmc.tv)
+
+[RISC OS](https://www.riscosopen.org/content/)
+
+[DietPi](https://github.com/MichaIng/DietPi)
+
+[Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
