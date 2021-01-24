@@ -43,6 +43,29 @@
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
  
+ **Raspberry Pi Pico Microcontroller**
+ 
+<img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
+
+[Check out the Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)
+
+**Raspberry Pi Pico Hardware Specifications**
+
+ - RP2040 microcontroller chip designed by Raspberry Pi in the UK
+ - Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+ - 264KB on-chip SRAM
+ - 2MB on-board QSPI Flash
+ - 26 multifunction GPIO pins, including 3 analogue inputs
+ - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+ - 1 × USB 1.1 controller and PHY, with host and device support
+ - 8 × Programmable I/O (PIO) state machines for custom peripheral support
+ - Castellated module allows soldering direct to carrier boards
+ - Drag-and-drop programming using mass storage over USB
+ - Low-power sleep and dormant modes
+ - Accurate on-chip clock
+ - Temperature sensor
+ - Accelerated integer and floating-point libraries on-chip
+
 
 **Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
 
