@@ -30,7 +30,7 @@
 
 **Raspberry Pi 4 Model B**
 
-<p align="center"
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
 </p>
 
@@ -50,7 +50,7 @@
 
 **Raspberry Pi 400 Personal Computer Kit**
 
-<p align="center"
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
 </p>
 
@@ -70,7 +70,7 @@
  
  **Raspberry Pi Pico Microcontroller**
  
-<p align="center"
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
 </p>
 
