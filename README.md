@@ -20,10 +20,9 @@
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
 
 
-<h1 align="center">
+<p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/111086240-4fb50d80-84d8-11eb-8fb0-a2f3343de352.png">
-  <br />
-</h1>
+</p>
 
 # Models of Raspbery Pi boards
 
@@ -31,7 +30,9 @@
 
 **Raspberry Pi 4 Model B**
 
+<p align="center"
 <img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
+</p>
 
 [Check out the Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
@@ -49,7 +50,9 @@
 
 **Raspberry Pi 400 Personal Computer Kit**
 
+<p align="center"
 <img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
+</p>
 
 [Check out the Raspberry Pi 400 Personal Computer Kit](https://www.raspberrypi.org/products/raspberry-pi-400/)
 
@@ -67,7 +70,9 @@
  
  **Raspberry Pi Pico Microcontroller**
  
+<p align="center"
 <img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
+</p>
 
 [Check out the Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)
 
