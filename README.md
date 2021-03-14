@@ -24,7 +24,7 @@
  <img src="https://user-images.githubusercontent.com/45159366/111086240-4fb50d80-84d8-11eb-8fb0-a2f3343de352.png">
 </p>
 
-# Models of Raspbery Pi boards
+# Models of Raspberry Pi boards
 
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
 
