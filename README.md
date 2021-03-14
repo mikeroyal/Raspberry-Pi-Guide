@@ -7,6 +7,28 @@
 #### A guide covering Raspberry Pi devices such as the Raspberry Pi 4 Model B and Raspberry Pi 400. Along with a wide variety of operating systems that you can install on your Raspberry Pi device. Also, learn about cool projects that you can build with your Raspberry Pi device.
 
 
+**Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+
+# Table of Contents
+
+1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#models-of-raspberry-pi-boards)
+
+2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-learning-resources)
+
+3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
+
+4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
+
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/111086240-4fb50d80-84d8-11eb-8fb0-a2f3343de352.png">
+  <br />
+</h1>
+
+# Models of Raspbery Pi boards
+
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
+
 **Raspberry Pi 4 Model B**
 
 <img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
@@ -74,7 +96,9 @@
 <img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
 
 
-## Resources
+# Raspberry Pi Learning Resources
+
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
 
 [Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
 
@@ -103,7 +127,9 @@
 [PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
 
 
-## Raspberry Pi Operating Systems
+# Raspberry Pi Operating Systems
+
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
@@ -146,7 +172,9 @@
 [Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
 
 
-## Tools
+# Raspberry Pi Tools
+
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 
