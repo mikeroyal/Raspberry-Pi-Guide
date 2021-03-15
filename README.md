@@ -204,3 +204,13 @@
 [Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
 
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
+
+## Contribute
+
+- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Raspberry-Pi-Guide/pulls).
+
+
+## License
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/master/README.md#table-of-contents)
+
+Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
