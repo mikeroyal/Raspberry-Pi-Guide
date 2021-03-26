@@ -226,7 +226,7 @@
 [Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
 
 
-[Raspberry Pi Cases Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
+[Raspberry Pi Cases from Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692629-80803580-8e3c-11eb-8b5c-c4879113a058.png">
@@ -549,7 +549,7 @@ sudo apt install cabextract libncurses5:armhf
 
 # Kubernetes
 
-[Back to the Top](https://github.com/mikeroyal/Perfect-Ubuntu-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/95383873-a884d800-08a0-11eb-8eaf-57af5b119f56.png">
