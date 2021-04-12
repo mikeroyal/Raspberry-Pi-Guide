@@ -35,6 +35,22 @@
 
 12. [Robotics](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#robotics)
 
+13. [Node.js Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#nodejs-development)
+
+14. [Java Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#java-development)
+
+15. [Python Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#python-development)
+
+16. [Rust Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#rust-development)
+
+17. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#typescript-development)
+ 
+18. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#htmlcss-development)
+
+19. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#ruby-development)
+
+20. [PHP Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#php-development) 
+
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/111086240-4fb50d80-84d8-11eb-8fb0-a2f3343de352.png">
