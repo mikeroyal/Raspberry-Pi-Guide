@@ -45,7 +45,7 @@
 
 17. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#typescript-development)
  
-18. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#htmlcss-development)
+18. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#hmtlcss-development)
 
 19. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#ruby-development)
 
@@ -837,6 +837,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/93719688-0becd700-fb39-11ea-9b87-3d52f1828aee.png">
+  <br />
+</p>
+
 ## Node.js Learning Resources
 
 [Node.js](https://nodejs.org/) is a JavaScript runtime built on Chrome's V8 JavaScript engine that lets developers write command line tools and server-side scripts outside of a browser.
@@ -1230,12 +1235,6 @@ commercially available industrial robot models that you can import, visualize, a
   <br />
 
 </p>
-
-**[Start building with TypeScript on AWS](https://aws.amazon.com/sdk-for-browser/)**
-
-**[Start building with TypeScript on AWS Mobile](https://aws-amplify.github.io/amplify-js/media/quick_start)**
-
-**[Start building with TypeScript on AWS IoT](https://github.com/aws/aws-iot-device-sdk-js/blob/master/README.md)**
 
 ## TypeScript Learning Resources
 
