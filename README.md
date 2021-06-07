@@ -53,7 +53,7 @@
 
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/111086240-4fb50d80-84d8-11eb-8fb0-a2f3343de352.png">
+ <img src="https://user-images.githubusercontent.com/45159366/121087087-d5272180-c798-11eb-8c9a-16c32d2c7454.png">
 </p>
 
 # Models of Raspberry Pi boards
