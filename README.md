@@ -163,6 +163,10 @@
 
 [PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
 
+[How to set Watchdog Timer on Raspberry Pi | IoT Assistant](https://iotassistant.io/raspberry-pi/how-to-set-watchdog-timer-raspberrypi/)
+
+[Writing to file on RAM Disk on Raspberry Pi | IoT Assistant](https://iotassistant.io/raspberry-pi/writing-to-file-on-ram-disk-on-raspberry-pi/)
+
 
 # Raspberry Pi Operating Systems
 
