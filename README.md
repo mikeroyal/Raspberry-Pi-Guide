@@ -9,6 +9,10 @@
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/121087087-d5272180-c798-11eb-8c9a-16c32d2c7454.png">
+</p>
+
 # Table of Contents
 
 1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#models-of-raspberry-pi-boards)
@@ -29,32 +33,34 @@
 
 9. [Home Media Server](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#home-media-server)
 
-10. [Kubernetes](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#kubernetes)
+10. [WireGuard](https://github.com/mikeroyal/Raspberry-Pi-Guide#wireguard)
 
-11. [Machine Learning](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#machine-learning)
+11. [Nextcloud](https://github.com/mikeroyal/Raspberry-Pi-Guide#nextcloud)
 
-12. [Robotics](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#robotics)
+12. [Grafana](https://github.com/mikeroyal/Raspberry-Pi-Guide#Grafana)
 
-13. [Node.js Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#nodejs-development)
+13. [Kubernetes](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#kubernetes)
 
-14. [Java Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#java-development)
+14. [Machine Learning](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#machine-learning)
 
-15. [Python Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#python-development)
+15. [Robotics](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#robotics)
 
-16. [Rust Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#rust-development)
+16. [Node.js Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#nodejs-development)
 
-17. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#typescript-development)
+17. [Java Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#java-development)
+
+18. [Python Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#python-development)
+
+19. [Rust Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#rust-development)
+
+20. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#typescript-development)
  
-18. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#hmtlcss-development)
+21. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#hmtlcss-development)
 
-19. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#ruby-development)
+22. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#ruby-development)
 
-20. [PHP Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#php-development) 
+23. [PHP Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#php-development) 
 
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/121087087-d5272180-c798-11eb-8c9a-16c32d2c7454.png">
-</p>
 
 # Models of Raspberry Pi boards
 
@@ -234,6 +240,10 @@
 [Kodi for Raspberry Pi](https://kodi.tv/download/853) is a free and open source media player application developed by the XBMC/Kodi Foundation.
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
+
+[Pimox](https://github.com/pimox/pimox7) is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
 
 [PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
@@ -624,6 +634,162 @@ sudo apt install cabextract libncurses5:armhf
 
 [Jellyfin](https://jellyfin.org/) is a volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. 
 
+# WireGuard
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/147891038-00f57362-e843-4bfb-be31-606c954d4e6c.png">
+  <br />
+</p>
+
+
+[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under a massive development, but it already might be regarded as the most secure, most comfortable to use, and the simplest VPN solution in the industry.
+
+[Wiretrustee](https://wiretrustee.com/) is a WireGuard®-based mesh network that connects your devices into a single private network.
+
+[Wireguard Manager](https://github.com/complexorganizations/wireguard-manager) is a tool that enables you to build your own vpn under a minute.
+
+[Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
+
+[Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
+
+[BoringTun](https://github.com/cloudflare/boringtun) is an implementation of the WireGuard® protocol designed for portability and speed. It's successfully deployed on millions of [iOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) and [Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&hl=en_US) consumer devices as well as thousands of Cloudflare Linux servers.
+
+[PiVPN](https://pivpn.io/) is the simplest VPN installer, designed for [Raspberry Pi](https://www.raspberrypi.com).
+
+[Algo VPN](https://github.com/trailofbits/algo) is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers.
+
+[Pro Custodibus](https://www.procustodibus.com/features/) is a tool for managing WireGuard with a variety of business VPN (Virtual Private Network) use cases, such as site-to-site connectivity, secure remote access from anywhere, secure access to the cloud (Amazon Web Services, Google Cloud Platform, Microsoft Azure, etc), and more.
+
+[Drago](https://seashell.github.io/drago) is a flexible configuration manager for WireGuard designed to make it simple to configure secure network overlays spanning heterogeneous nodes distributed across different clouds and physical locations. Drago is in active development, and we welcome contributions from the open-source community.
+
+[Netmaker](https://netmaker.org/) is a tool that helps connect any computers together over a secure, fast, private network, and manage multiple networks from a central server.
+
+[Kilo](https://github.com/squat/kilo) is a multi-cloud network overlay built on WireGuard and designed for Kubernetes. Kilo connects nodes in a cluster by providing an encrypted layer 3 network that can span across data centers and public clouds. The Pod network created by Kilo is always fully connected, even when the nodes are in different networks or behind NAT. By allowing pools of nodes in different locations to communicate securely, Kilo enables the operation of multi-cloud clusters. Kilo's design allows clients to VPN to a cluster in order to securely access services running on the cluster.
+
+[Subspace](https://github.com/subspacecloud/subspace) is a simple WireGuard VPN server GUI.
+
+[WG UI](https://github.com/EmbarkStudios/wg-ui) is a basic, self-contained management service for WireGuard with a self-serve web UI.
+
+[WireHole](https://github.com/IAmStoxe/wirehole) is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
+
+[Gluetun](https://github.com/qdm12/gluetun) is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
+
+[Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
+
+# Nextcloud
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701955-f1f514a8-82e6-462f-9fc9-8926b6b7de3e.png">
+  <br />
+  
+</p>
+
+[Nextcloud](https://nextcloud.com) is an industry-leading, on-premises content collaboration platform for file sync & share and communication server. It is fully open source and you can host it yourself or pay a company to do it for you. Also checkout the following links below:
+
+   - [Nextcloud App Store](https://apps.nextcloud.com)
+
+   - [Nextcloud GitHub](https://github.com/nextcloud)
+
+   - [Nextcloud Developer Program](https://nextcloud.com/developer)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701961-ac8be115-34c1-4012-bd69-d1f22a10e48c.png">
+  <br />
+Nexcloud login screen
+</p>
+
+[Nextcloud Hub](https://nextcloud.com/hub/) is a tool that allows you to share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks. As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701964-df1dd8d9-1d3a-4376-81e8-f49439fb4356.png">
+  <br />
+Nexcloud Hub
+</p>
+
+[Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
+
+[Nextcloud Deck](https://apps.nextcloud.com/apps/deck) is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.
+
+[Nextcloud Files](https://nextcloud.com/files/) is a tool tool that allows your employees have easy access to their files, photos and documents to work and can share and collaborate with team members, customers and partners. So IT knows nobody besides those they shared with has access to those files.
+
+[Nextcloud Talk](https://nextcloud.com/talk/) is a tool that protects your communication better than other team collaboration platforms like Microsoft Teams or Slack, making sure your data stays on your servers. It also goes further than other encrypted communication technologies by keeping even metadata from leaking.
+
+[Nextcloud Home](https://nextcloud.com/athome/) is a tool that allows you store your documents, calendar, contacts and photos on your server at home, at one of at one Nextcloud's providers or in a data center you trust.
+
+[Nextcloud Enterprise](https://nextcloud.com/enterprise/) is a service that gives professional organizations software optimized and tested for mission critical environments.
+
+[Nextcloud Outlook Integration](https://nextcloud.com/outlook/) is a tool that automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook.
+
+[Collabora Online in Nextcloud](https://nextcloud.com/collaboraonline/) is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.
+
+[ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
+
+[Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
+
+# Grafana
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398126-eea08800-dcc8-11eb-8129-087e924d9eed.png">
+  <br />
+</p>
+
+## Grafana Learning Resources
+
+[Grafana](https://grafana.com/) is an analytics platform that enables you to query and visualize data, then create and share dashboards based on your visualizations. Easily visualize metrics, logs, and traces from multiple sources such as Prometheus, Loki, Elasticsearch, InfluxDB, Postgres, Fluentd, Fluentbit, Logstash and many more.
+
+[Getting Started with Grafana](https://grafana.com/docs/)
+
+[Grafana Community](https://community.grafana.com/)
+
+[Grafana Professional Services Training | Grafana Labs](https://grafana.com/training/)
+
+[Grafana Pro Training AWS | Grafana Labs](https://grafana.com/training/aws/)
+
+[Grafana Tutorials](https://grafana.com/tutorials/)
+
+[Top Grafana Courses on Udemy](https://www.udemy.com/topic/grafana/)
+
+[Grafana Online Training Courses | LinkedIn Learning](https://www.linkedin.com/learning/topics/grafana)
+
+[Grafana Training Courses - NobleProg](https://www.nobleprog.com/grafana-training)
+
+[Setting Up Grafana to Visualize Our Metrics Course on Coursera](https://www.coursera.org/lecture/continuous-integration/setting-up-grafana-to-visualize-our-metrics-part-4-of-10-OOMzF)
+
+## Grafana Tools
+
+[Grafana Cloud ](https://grafana.com/products/cloud/) is a composable observability platform, integrating metrics, traces and logs with Grafana. Leverage the best open source observability software – including Prometheus, Loki, and Tempo – without the overhead of installing, maintaining, and scaling your observability stack.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398133-f3653c00-dcc8-11eb-8465-8633072daf41.png">
+  <br />
+</p>
+
+**Grafana Cloud Integrations. Source: [Grafana](https://grafana.com/products/cloud/)**
+
+[Grafana Enterprise](https://grafana.com/products/enterprise/) is a service that includes features that provide better scalability, collaboration, operations, and governance in a self-managed environment.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398134-f4966900-dcc8-11eb-8633-448074c93f71.png">
+  <br />
+</p>
+
+**Grafana Enterprise Stack. Source: [Grafana](https://grafana.com/products/enterprise/)**
+
+[Grafana Tempo](https://grafana.com/oss/tempo/) is an open source high-scale distributed tarcing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Loki, and Prometheus.
+
+[Grafana MetricTank](https://grafana.com/oss/metrictank/) is a multi-tenant timeseries platform for Graphite developed by Grafana Labs. MetricTank provides high-availability(HA) and efficient long-term storage, retrieval, and processing for large-scale environments.
+
+[Grafana Tanka](https://grafana.com/oss/tanka/) is a robust configuration utility for your [Kubernetes](https://kubernetes.io/) cluster, powered by the [Jsonnet](https://jsonnet.org/) language.
+
+[Grafana Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available(HA), multi-tenant log aggregation system inspired by Prometheus.
+
+[Cortex](https://grafana.com/oss/cortex/) is a project that lets users query metrics from many Prometheusservers in a single place, without any gaps in the grpahs due to server failture. Also, Cortex lets you store Prometheus metrics for long term capacity planning and performance analysis.
+
+[Graphite](https://grafana.com/oss/graphite/) is an open source monitoring system.
+
 # Kubernetes
 
 [Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
@@ -634,7 +800,7 @@ sudo apt install cabextract libncurses5:armhf
 
 **Note: The recommended hardware is the Raspberry Pi 4 Model B with 8 GB of Memory**
 
-[Kubernetes (K8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. [Installing Kubernetes on Ubuntu](https://ubuntu.com/kubernetes/install).
+[Kubernetes (K8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/105645195-db9ea780-5e4e-11eb-8357-fb38b2f06d74.png">
