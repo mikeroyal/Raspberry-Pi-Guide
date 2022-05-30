@@ -30,6 +30,13 @@
 7. [Using Android Apps on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#using-android-apps-on-raspberry-pi)
 
 8. [Gaming](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#gaming)
+     - [Steam](https://github.com/mikeroyal/Raspberry-Pi-Guide#steam)
+     - [ProtonDB](https://github.com/mikeroyal/Raspberry-Pi-Guide#protondb)
+     - [Lutris](https://github.com/mikeroyal/Raspberry-Pi-Guide#lutris)
+     - [GameHub](https://github.com/mikeroyal/Raspberry-Pi-Guide#gamehub)
+     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide#heoric-game-launcher)
+     - [Game Streaming](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-streaming)
+     - [Game Emulators](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-emulators)
 
 9. [Home Media Server](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#home-media-server)
 
@@ -339,6 +346,14 @@
 
  <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
  
+ ## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+ 
  ## Snaps
 
 [Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
@@ -347,14 +362,6 @@
 
  <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
  <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
-
-## Flatpaks
-
-[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
-
-[FlatHub Forum](https://discourse.flathub.org/)
-
- <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
 
 ## AppImages
 
@@ -407,14 +414,10 @@ Local virtual devices with high performances.
 </p>
 
 # Gaming
-
-[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 ## Steam
-
-[Get Steam](https://store.steampowered.com/about/)
-
-**Or**
+**Open the terminal and copy/paste command below**
 
 ```sh
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
@@ -429,6 +432,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
  
 ## ProtonDB
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 [ProtonDB](https://www.protondb.com) is a collection of over 100,000 gaming reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.
 
@@ -441,6 +445,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 </p>
 
 ## Lutris
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 [Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
@@ -449,6 +454,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
 
 ## Heroic Games Launcher
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
  
 [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) is a Native GUI Epic Games Launcher for Linux.
 
@@ -458,6 +464,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
  
 ## GameHub
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 [GameHub](https://github.com/tkashkin/GameHub) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
 
@@ -483,6 +490,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
    
 
 ## Game Streaming
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 [Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV. 
 
@@ -490,21 +498,31 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
 </p>
 
-[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow).
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
 
  <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
 
-[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. 
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig.
 
 <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
 
-[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. [Chiaki Flatpak](https://flathub.org/apps/details/re.chiaki.Chiaki)
 
-[Xbox Project xCloud](https://www.xbox.com/en-US/xbox-game-streaming/project-xcloud) is Microsoft's cloud-based Xbox game-streaming technology. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Microsoft's Xbox Project xCloud does require an [Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) subscription.
+[Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an [Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) subscription.
 
 <img src="https://user-images.githubusercontent.com/45159366/108111388-74d56e00-7049-11eb-8aeb-3e5d65f9e832.png">
 
+[Stadia](https://stadia.google.com/games) is Google's gaming platform that lets you instantly play your favorite video games on screens you already own. Game on TVs with Chromecast with Google TV, laptops, desktops, tablets or compatible phones. [Stadia Pro](https://stadia.google.com/) is a subscription($9.99 per month) that unlocks a growing collection of free games to play on Stadia. 
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/162089471-3eb27f98-2366-4117-9af5-93bb126a2c37.png">
+</p>
+
+[Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/166166858-e70ca081-8931-46f3-9dc3-fe9c719d76f8.png">
+</p>
 
 [Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a vartiey of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
 
@@ -513,6 +531,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 </p>
 
 ## Game Emulators
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
@@ -571,30 +590,6 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
    - [r/MAME](https://www.reddit.com/r/MAME/)
    - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
    - [r/Roms](https://www.reddit.com/r/Roms/)
- 
-## Graphics Performance
- 
-[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak.
- <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
- 
- [CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models). 
- 
- ```sh
- sudo add-apt-repository ppa:ernstp/mesarc
- sudo apt install corectrl
-```
-<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
-
-
-## Performance Benchmarks
-
-[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
-
-[Phoronix Test Suite](https://www.phoronix-test-suite.com/)
-
-[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
-
-<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
  
 ## Wine
 
