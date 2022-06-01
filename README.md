@@ -18,10 +18,12 @@
 1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#models-of-raspberry-pi-boards)
 
 2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-learning-resources)
+    - [Books](https://github.com/mikeroyal/raspberry-pi-Guide#books)
 
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
 
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
+     - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberrypi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#raspberry-pi-upgrades)
 
@@ -34,7 +36,7 @@
      - [ProtonDB](https://github.com/mikeroyal/Raspberry-Pi-Guide#protondb)
      - [Lutris](https://github.com/mikeroyal/Raspberry-Pi-Guide#lutris)
      - [GameHub](https://github.com/mikeroyal/Raspberry-Pi-Guide#gamehub)
-     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide#heoric-game-launcher)
+     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide#heroic-game-launcher)
      - [Game Streaming](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-streaming)
      - [Game Emulators](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-emulators)
 
@@ -180,6 +182,46 @@
 
 [Writing to file on RAM Disk on Raspberry Pi | IoT Assistant](https://iotassistant.io/raspberry-pi/writing-to-file-on-ram-disk-on-raspberry-pi/)
 
+### Books
+
+- [The Official Raspberry Pi Handbook (2022)](https://magpi.raspberrypi.com/books/handbook-2022)  
+
+- [The Official Raspberry Pi Handbook (2021)](https://magpi.raspberrypi.com/books/handbook-2021) 
+
+- [Raspberry Pi Beginner's Book 1](https://magpi.raspberrypi.com/books/beginners-1) 
+
+- [Raspberry Pi Beginner's Guide for **Raspberry Pi 3B+**](https://magpi.raspberrypi.com/books/beginners-guide) 
+
+- [Raspberry Pi Beginner's Guide v2 for **Raspberry Pi 4**](https://magpi.raspberrypi.com/books/beginners-guide-2nd-ed) - 
+
+- [Raspberry Pi Beginner's Guide v3 for **Raspberry Pi 4**](https://magpi.raspberrypi.com/books/beginners-guide-3rd-ed) 
+
+- [Raspberry Pi Beginner's Guide v4 for **Raspberry Pi 4 and Raspberry Pi 400**](https://magpi.raspberrypi.com/books/beginners-guide-4th-ed)  
+
+- [Raspberry Pi Projects Book v1](https://magpi.raspberrypi.com/books/projects-1) 
+
+- [Raspberry Pi Projects Book v2](https://magpi.raspberrypi.com/books/projects-2) 
+
+- [Raspberry Pi Projects Book v3](https://magpi.raspberrypi.com/books/projects-3) 
+
+- [Raspberry Pi Projects Book v4](https://magpi.raspberrypi.com/books/projects-4) 
+
+- [Raspberry Pi Projects Book v5](https://magpi.raspberrypi.com/books/projects-5) 
+
+- [Retro Gaming with Raspberry Pi](https://magpi.raspberrypi.com/books/retro-gaming) 
+
+- [Raspberry Pi Camera Guide](https://magpi.raspberrypi.com/books/camera-guide)
+
+- [Raspberry Pi Essentials - GPIO Zero Electronics](https://magpi.raspberrypi.com/books/essentials-gpio-zero-v1) 
+
+- [Raspberry Pi Essentials - Learn to Code with Scratch](https://magpi.raspberrypi.com/books/essentials-scratch-v1) 
+
+- [Raspberry Pi Essentials - Make Games with Python](https://magpi.raspberrypi.com/books/essentials-games-vol1) 
+
+- [Raspberry Pi Essentials - Learn to Code with C](https://magpi.raspberrypi.com/books/essentials-c-v1)  
+
+- [Raspberry Pi Essentials - Making with Minecraft](https://magpi.raspberrypi.com/books/essentials-minecraft-v1)
+
 
 # Raspberry Pi Operating Systems
 
@@ -248,6 +290,8 @@
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
+
 [FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
 
 [Pimox](https://github.com/pimox/pimox7) is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
@@ -260,9 +304,51 @@
 
 [Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
 
+[Lightberry](https://lightberry.eu) is a Led lighting solution dedicated for raspberry pi and your TV.
+
+[Lomorage](https://github.com/lomorage/homepage) is a Private photo cloud host on Raspberry Pi, with Android/iOS/Web client.
+
+[Kubernetes on ARM](https://github.com/luxas/kubernetes-on-arm) is a tool to get your ARM device up and running Kubernetes in less than ten minutes.
+
 [Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
 
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
+
+## Setting Watchdog Timer (WDT) on Raspberry Pi
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
+
+[Watchdog Timer (WDT)](https://en.wikipedia.org/wiki/Watchdog_timer) is a timer that monitors microcontroller (MCU) programs to see if they are out of control or have stopped operating.
+
+### Installing and enabling WDT service
+
+To enable watchdog you have to change the boot parameters by adding **dtparam=watchdog=on** in **/boot/config.txt** using a text editor such as nano, vim, gedit, etc.. Also, install watchdog package and enable it to start at startup. Also, make sure to restart your Raspberry Pi for these settings to take effect.
+
+```pi@raspberrypi:~ $ sudo apt install watchdog```
+
+```pi@raspberrypi:~ $sudo systemctl enable watchdog```
+
+### Configure WDT service
+
+Configuration file for watchdog can be found in **/etc/watchdog.conf**. 
+
+```
+max-load-1 = 24
+watchdog-device = /dev/watchdog
+realtime = yes
+priority = 1
+```
+
+**To start the WTD service:**
+
+```pi@raspberrypi:~ $ sudo systemctl start watchdog```
+
+**Check watchdog status:**
+
+```pi@raspberrypi:~ $ sudo systemctl status watchdog```
+
+**To stop the service:**
+
+```pi@raspberrypi:~ $ sudo systemctl stop watchdog```
 
 # Raspberry Pi Upgrades
 
@@ -461,6 +547,8 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112693066-35b2ed80-8e3d-11eb-930f-2ff8a8695094.png">
 </p>
+
+**Hero Game Launcher UI. Credit: [flavioislima](https://github.com/flavioislima)**
 
  
 ## GameHub
