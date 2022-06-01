@@ -23,7 +23,7 @@
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
 
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
-     - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberrypi)
+     - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#raspberry-pi-upgrades)
 
