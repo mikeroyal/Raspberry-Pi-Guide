@@ -36,7 +36,7 @@
      - [ProtonDB](https://github.com/mikeroyal/Raspberry-Pi-Guide#protondb)
      - [Lutris](https://github.com/mikeroyal/Raspberry-Pi-Guide#lutris)
      - [GameHub](https://github.com/mikeroyal/Raspberry-Pi-Guide#gamehub)
-     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide#heroic-game-launcher)
+     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide/edit/main/README.md#heroic-games-launcher)
      - [Game Streaming](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-streaming)
      - [Game Emulators](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-emulators)
 
