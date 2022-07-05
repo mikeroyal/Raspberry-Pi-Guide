@@ -115,6 +115,30 @@
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
  
+ **Raspberry Pi Zero 2 W**
+ 
+[Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK. With a quad-core 64-bit ARM Cortex-A53 processor clocked at 1GHz and 512MB of SDRAM, Zero 2 is up to five times as fast as the original Raspberry Pi Zero.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/177431003-b8516786-97b6-4678-90e3-51e25c904b1e.png">
+</p>
+
+[Check out the Raspberry Pi Zero 2 W](https://www.raspberrypi.org/products/raspberry-pi-zero-2-w/)
+
+**Raspberry Pi Zero 2 W Hardware Specifications:**
+
+- 1GHz quad-core 64-bit Arm Cortex-A53 CPU
+- 512MB SDRAM
+- 2.4GHz 802.11 b/g/n wireless LAN
+- Bluetooth 4.2, Bluetooth Low Energy (BLE), onboard antenna
+- Mini HDMI port and micro USB On-The-Go (OTG) port
+- microSD card slot
+- CSI-2 camera connector
+- HAT-compatible 40-pin header footprint (unpopulated)
+- H.264, MPEG-4 decode (1080p30); H.264 encode (1080p30)
+- OpenGL ES 1.1, 2.0 graphics
+- Micro USB power
+ 
  **Raspberry Pi Pico Microcontroller**
  
 <p align="center">
@@ -139,7 +163,78 @@
  - Accurate on-chip clock
  - Temperature sensor
  - Accelerated integer and floating-point libraries on-chip
+ 
+**Raspberry Pi Pico W**
 
+[Raspberry Pi Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/) is just like the classic Pico but adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW4343 while retaining the Pico form factor. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/177430870-9737b7fa-688b-485b-8057-000e57618de1.png">
+</p>
+
+[Checkout the Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+**Raspberry Pi Pico W Hardware Specifications:**
+
+- Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+ - 264kB on-chip SRAM
+ - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+ - 1 × USB 1.1 controller and PHY, with host and device support
+ - 8 × Programmable I/O (PIO) state machines for custom peripheral support
+ - Supported input power 1.8–5.5V DC
+ - Operating temperature -40°C to +85°C
+ - Drag-and-drop programming using mass storage over USB
+ - Low-power sleep and dormant modes
+ - Accurate on-chip clock
+ - Temperature sensor
+ 
+**Raspberry Pi Pico W**
+
+[Raspberry Pi Pico H](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/) is just like the classic Pico but now comes with pre-soldered headers. A [3-pin JTAG connector](https://datasheets.raspberrypi.com/debug/debug-connector-specification.pdf) is now pre-soldered for debugging. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/177430872-c260a57e-99f2-43e9-8bfa-f4f772099909.png">
+</p>
+
+[Checkout the Raspberry Pi Pico H](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+**Raspberry Pi Pico H Hardware Specifications:**
+
+ - Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+ - 264kB on-chip SRAM
+ - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+ - 1 × USB 1.1 controller and PHY, with host and device support
+ - 8 × Programmable I/O (PIO) state machines for custom peripheral support
+ - Supported input power 1.8–5.5V DC
+ - Operating temperature -40°C to +85°C
+ - Drag-and-drop programming using mass storage over USB
+ - Low-power sleep and dormant modes
+ - Accurate on-chip clock
+ - Temperature sensor
+
+**Raspberry Pi RP2040**
+
+[RP2040](https://www.raspberrypi.com/products/rp2040/) is a microcontroller chip designed by Raspberry Pi.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/177430875-51c05f65-6cac-4624-8c4d-e6ff7979c41d.png">
+</p>
+
+[Checkout the Raspberry RP2040](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+**Raspberry Pi RP2040 Hardware Specifications:**
+
+ - Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+ - 264kB on-chip SRAM
+ - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+ - 1 × USB 1.1 controller and PHY, with host and device support
+ - 8 × Programmable I/O (PIO) state machines for custom peripheral support
+ - Supported input power 1.8–5.5V DC
+ - Operating temperature -40°C to +85°C
+ - Drag-and-drop programming using mass storage over USB
+ - Low-power sleep and dormant modes
+ - Accurate on-chip clock
+ - Temperature sensor
 
 **Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
 
