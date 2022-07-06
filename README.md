@@ -463,34 +463,16 @@ priority = 1
 
 [Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
 
+[Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. The Android runtime environment ships with a minimal customized Android system image based on LineageOS. The image is currently based on Android 10.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/171924198-0d440de1-9ff7-4e37-b6c3-f7e42c266530.png">
+</p>
+
 [LineageOS](https://lineageos.org/) is a free and open-source operating system for various devices, based on the Android mobile platform.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/108647222-f0ca1e80-746c-11eb-8e55-0e9808bb24fc.png">
-</p>
-
-[Anbox](https://anbox.io/) is an application that provides a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu, Debian Fedora, and openSUSE.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/108637384-34a62f00-743f-11eb-9edc-83267a673b38.png">
-</p>
-
-[Genymotion](https://www.genymotion.com/) is a very fast Android emulator. The program itself is based on VirtualBox and is known for its effectively fast speed and is usefulness for running Android apps on a Windows, Mac and Linux desktop.
-
-**Desktop**
-
-Local virtual devices with high performances.
-
- - Emulate a wide range of virtual device configurations (Android versions, screen size, hardware capacities, etc.)
- - Simulate multiple scenarios thanks to our full set of hardware sensors (GPS, network, multitouch, etc.)
- - Cross-platform: Windows, Mac and Linux
- - Manipulate easily with ADB
- - $412 per year for employees in a company (BUSINESS). All features, advanced support.
- - $136 per year for freelancers (INDIE). All features, best effort support.
- - [Free](https://www.genymotion.com/download/) for personal use only (learning & entertainment). Limited features, no support.
- 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/108637388-37a11f80-743f-11eb-9f37-6e22e1172f2d.png">
 </p>
 
 [Scrcpy](https://github.com/Genymobile/scrcpy) is an application by Genymotion that provides display and control of Android devices connected on USB (or over TCP/IP). It does not require any root access and works on GNU/Linux, Windows and macOS. The Android device requires at least API 21 (Android 5.0).
