@@ -23,6 +23,7 @@
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
 
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
+     - [Getting Started with Home Assistant(HA)](#Home-Assistant)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#raspberry-pi-upgrades)
@@ -419,6 +420,56 @@
 
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
 
+## Home Assistant
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
+ 
+ <p align="center">
+ <img src="ttps://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
+  <br />
+</p>
+
+[Home Assistant](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
+
+ - [Getting Started with Home Assistant](https://home-assistant.io/getting-started)
+ - [Home Assistant for Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi/)
+
+[Home Assistant Frontend](https://demo.home-assistant.io/) is a frontend for Home Assistant. 
+
+### Tools to write the HA image to your boot media(microSD card or USB device)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719741-a88c162f-bfa9-469f-a87e-e9f12c175e07.png">
+  <br />
+</p>
+
+### Home Assistant integrations
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719765-602b4658-c8bf-4952-a238-4b986efbb7cb.png">
+  <br />
+</p>
+
+Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant.io/integrations/)
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+
+[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+[Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
+
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
 ## Setting Watchdog Timer (WDT) on Raspberry Pi
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
 
@@ -637,7 +688,6 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 **Hero Game Launcher UI. Credit: [flavioislima](https://github.com/flavioislima)**
 
- 
 ## GameHub
 [Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
 
