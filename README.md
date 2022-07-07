@@ -379,6 +379,12 @@
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
+[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
+
+[Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
+
+[Kubernetes on ARM](https://github.com/luxas/kubernetes-on-arm) is a tool to get your ARM device up and running Kubernetes in less than ten minutes.
+
 ## Tools for Home Automation
 
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
@@ -438,17 +444,11 @@ Automation systems.
 
 [authentik](https://github.com/goauthentik/authentik) is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
 
-[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
-
 [RPiPlay](https://github.com/FD-/RPiPlay) is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
-
-[Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
 
 [Lightberry](https://lightberry.eu) is a Led lighting solution dedicated for raspberry pi and your TV.
 
 [Lomorage](https://github.com/lomorage/homepage) is a Private photo cloud host on Raspberry Pi, with Android/iOS/Web client.
-
-[Kubernetes on ARM](https://github.com/luxas/kubernetes-on-arm) is a tool to get your ARM device up and running Kubernetes in less than ten minutes.
 
 [Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
 
