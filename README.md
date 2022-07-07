@@ -421,7 +421,7 @@
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
 
 ## Home Assistant
-[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Raspberry-Pi-Guide#table-of-contents)
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
