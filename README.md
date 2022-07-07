@@ -23,6 +23,7 @@
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
 
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
+     - [Tools for Home Automation](#Tools-for-Home-Automation)
      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
@@ -378,7 +379,42 @@
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
+## Tools for Home Automation
+
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
+
 [Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+Automation systems.
+
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+
+[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+[Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+
+[Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
+
+[Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+
+[Samsung SmartThings](https://www.smartthings.com/) is a sofwtare frmaeowrk that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+
+[Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
+
+[Lutron Caséta](https://www.lutron.com/en-US/Products/Pages/SingleRoomControls/CasetaWireless/Overview.aspx) is a smart lighting control system that is a great solution for giving any client smart lighting control. It was purposely built to work in homes of all ages and it works with older wiring as well as new.
+
+[Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
+
+[Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+
+[MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
+
+[Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
+
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
+[Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
 [Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
 
@@ -401,8 +437,6 @@
 [PM2](https://github.com/Unitech/pm2) is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
 
 [authentik](https://github.com/goauthentik/authentik) is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
-
-[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
 
 [PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
 
@@ -466,9 +500,35 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
 
+[Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+
+[Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
+
+[Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+
+[Samsung SmartThings](https://www.smartthings.com/) is a sofwtare frmaeowrk that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+
+[Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
+
+[Lutron Caséta](https://www.lutron.com/en-US/Products/Pages/SingleRoomControls/CasetaWireless/Overview.aspx) is a smart lighting control system that is a great solution for giving any client smart lighting control. It was purposely built to work in homes of all ages and it works with older wiring as well as new.
+
+[Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
+
+[Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+
+[MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
+
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
 
 [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
+[Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
+
+[Zwavejs2Mqtt](https://zwave-js.github.io/zwavejs2mqtt/) is a fully configurable Zwave to MQTT Gateway and Control Panel Web UI.
+
+[Z-Wave JS Server](https://github.com/zwave-js/zwave-js-server) is a small server wrapper around Z-Wave JS to access it via a WebSocket.
+
+[Z-Wave JS Config DB Browser](https://devices.zwave-js.io/) is the official device configuration reference to find out if your device is supported. Currently supports 387 brands, spanning at least 2075 device configurations.
 
 ## Setting Watchdog Timer (WDT) on Raspberry Pi
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
