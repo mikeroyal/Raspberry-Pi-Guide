@@ -15,34 +15,34 @@
 
 # Table of Contents
 
-1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#models-of-raspberry-pi-boards)
+1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide#models-of-raspberry-pi-boards)
 
-2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-learning-resources)
+2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-learning-resources)
     - [Books](https://github.com/mikeroyal/raspberry-pi-Guide#books)
 
-3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-operating-systems)
+3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-operating-systems)
 
-4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#raspberry-pi-tools)
+4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-tools)
      - [Tools for Home Automation](#Tools-for-Home-Automation)
      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
-5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#raspberry-pi-upgrades)
+5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide#raspberry-pi-upgrades)
 
-6. [Getting Software](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#getting-software)
+6. [Getting Software](https://github.com/mikeroyal/Raspberry-Pi-Guide#getting-software)
 
-7. [Using Android Apps on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#using-android-apps-on-raspberry-pi)
+7. [Using Android Apps on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#using-android-apps-on-raspberry-pi)
 
-8. [Gaming](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#gaming)
+8. [Gaming](https://github.com/mikeroyal/Raspberry-Pi-Guide#gaming)
      - [Steam](https://github.com/mikeroyal/Raspberry-Pi-Guide#steam)
      - [ProtonDB](https://github.com/mikeroyal/Raspberry-Pi-Guide#protondb)
      - [Lutris](https://github.com/mikeroyal/Raspberry-Pi-Guide#lutris)
      - [GameHub](https://github.com/mikeroyal/Raspberry-Pi-Guide#gamehub)
-     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide/edit/main/README.md#heroic-games-launcher)
+     - [Heroic Game Launcher](https://github.com/mikeroyal/Raspberry-Pi-Guide#heroic-games-launcher)
      - [Game Streaming](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-streaming)
      - [Game Emulators](https://github.com/mikeroyal/Raspberry-Pi-Guide#game-emulators)
 
-9. [Home Media Server](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#home-media-server)
+9. [Home Media Server](https://github.com/mikeroyal/Raspberry-Pi-Guide#home-media-server)
 
 10. [WireGuard](https://github.com/mikeroyal/Raspberry-Pi-Guide#wireguard)
 
@@ -50,27 +50,27 @@
 
 12. [Grafana](https://github.com/mikeroyal/Raspberry-Pi-Guide#Grafana)
 
-13. [Kubernetes](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#kubernetes)
+13. [Kubernetes](https://github.com/mikeroyal/Raspberry-Pi-Guide#kubernetes)
 
-14. [Machine Learning](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#machine-learning)
+14. [Machine Learning](https://github.com/mikeroyal/Raspberry-Pi-Guide#machine-learning)
 
-15. [Robotics](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#robotics)
+15. [Robotics](https://github.com/mikeroyal/Raspberry-Pi-Guide#robotics)
 
-16. [Node.js Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#nodejs-development)
+16. [Node.js Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#nodejs-development)
 
-17. [Java Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#java-development)
+17. [Java Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#java-development)
 
-18. [Python Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#python-development)
+18. [Python Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#python-development)
 
-19. [Rust Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#rust-development)
+19. [Rust Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#rust-development)
 
-20. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#typescript-development)
+20. [TypeScript Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#typescript-development)
  
-21. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#hmtlcss-development)
+21. [HMTL/CSS Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#hmtlcss-development)
 
-22. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#ruby-development)
+22. [Ruby Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#ruby-development)
 
-23. [PHP Development](https://github.com/mikeroyal/Raspberry-Pi-Guide/blob/main/README.md#php-development) 
+23. [PHP Development](https://github.com/mikeroyal/Raspberry-Pi-Guide#php-development) 
 
 
 # Models of Raspberry Pi boards
