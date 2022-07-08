@@ -25,6 +25,7 @@
 4. [Raspberry Pi Tools](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-tools)
      - [Tools for Home Automation](#Tools-for-Home-Automation)
      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
+     - [Getting Started with Homebridge](#Homebridge)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide#raspberry-pi-upgrades)
@@ -362,8 +363,6 @@
 
 [DietPi](https://github.com/MichaIng/DietPi)
 
-[Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
-
 
 # Raspberry Pi Tools
 
@@ -529,6 +528,52 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Z-Wave JS Server](https://github.com/zwave-js/zwave-js-server) is a small server wrapper around Z-Wave JS to access it via a WebSocket.
 
 [Z-Wave JS Config DB Browser](https://devices.zwave-js.io/) is the official device configuration reference to find out if your device is supported. Currently supports 387 brands, spanning at least 2075 device configurations.
+
+## Homebridge
+[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177946864-bd962065-a863-4f97-b6be-a8f98861efa4.png">
+  <br />
+</p>
+
+[Homebridge](https://homebridge.io/) is a software frameowrk that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+
+- [Official Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started)
+- [Setup Homebridge on a Raspberry Pi (Raspbian)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian)
+- [Setup Homebridge on Debian or Ubuntu](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux)
+- [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux) 
+- [Setup Homebridge on Docker (Linux)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker)
+
+
+### Tools to write the Homebridge image to your boot media(microSD card or USB device)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719741-a88c162f-bfa9-469f-a87e-e9f12c175e07.png">
+  <br />
+</p>
+
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+
+   - Install and configure Homebridge plugins.
+   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
+   - View and control Homebridge accessories.
+   - Backup and Restore your Homebridge instance.
+    
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177949596-0d02c572-fa6b-4fc7-adbd-d136f81149fb.png">
+  <br />
+  Homebridge UI
+ </p>  
 
 ## Setting Watchdog Timer (WDT) on Raspberry Pi
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
