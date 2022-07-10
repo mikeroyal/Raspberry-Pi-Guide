@@ -329,6 +329,8 @@
 
 [Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
 
+[Umbrel](https://umbrel.com/) 
+
 [OmniROM(Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
 
 [Manjaro Linux ARM](https://manjaro.org/download/#ARM)
@@ -375,6 +377,20 @@
 [Raspberry Pi Network Install (Beta)](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-over-the-network-beta) is a feature can be used to start the Raspberry Pi Imager application directly on a Raspberry Pi 4, or a Raspberry Pi 400, by downloading it from the internet using an Ethernet cable. The Raspberry Pi Imager application, which will run in memory on your Raspberry Pi, can then be used to flash the operating system onto a blank SD Card or USB disk, just like normal. 
 
 [Raspberry Pi Bootloader](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#updating-the-bootloader) is a feature, which is now available in beta, that utilize an **EEPROM(Electrically Erasable Programmable Read-Only Memory)** to store the system’s bootloader. This EEPROM is persistent storage that is located on the Pi’s mainboard. The advantage of using the EEPROM instead is that the Raspberry Pi 4 can perform tasks without needing any storage to be attached.
+
+[Pi-Apps](https://github.com/Botspot/pi-apps) is a Raspberry Pi App Store for Open Source Projects.
+
+[Backup Raspberry Pi Server](https://github.com/geerlingguy/backup-pi) is an Ansible configuration to set up a Raspberry Pi as a backup server for storing backups of data from other servers (e.g. webroots, files, and databases). This project is developed and maintained by [Jeff Geerling](https://github.com/geerlingguy).
+ 
+[RaspiBackup](https://github.com/framps/raspiBackup) is a tool that backups and restores your running Raspberry.
+
+[Proxmox VE](https://www.home-assistant.io/integrations/proxmoxve/) is an open-source server virtualization environment. 
+
+[Pimox](https://github.com/pimox/pimox7) is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
+
+[PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
+
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
@@ -463,8 +479,11 @@ Automation systems.
 
 [Home Assistant](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
 
+**Quick Links**
+
  - [Getting Started with Home Assistant](https://home-assistant.io/getting-started)
  - [Home Assistant for Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi/)
+ - [Installing Home Assistant OS using Proxmox 7](https://github.com/Kanga-Who/home-assistant/blob/master/Home%20Assistant%20with%20Proxmox%20installation.md)
 
 [Home Assistant Frontend](https://demo.home-assistant.io/) is a frontend for Home Assistant. 
 
