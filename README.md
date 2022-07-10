@@ -28,6 +28,7 @@
      - [Tools for Home Automation](#Tools-for-Home-Automation)
      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
      - [Getting Started with Homebridge](#Homebridge)
+     - [Getting Started with ESPHome](#ESPHome)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide#raspberry-pi-upgrades)
@@ -633,7 +634,105 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
  <img src="https://user-images.githubusercontent.com/45159366/177949596-0d02c572-fa6b-4fc7-adbd-d136f81149fb.png">
   <br />
   Homebridge UI
- </p>  
+ </p> 
+ 
+## ESPHome
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178136653-b6e635f6-5fa9-40a6-9903-e0dfb912ed80.png">
+  <br />
+</p>
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+#### Quick Links
+
+ - [ESP Web Tools](https://esphome.github.io/esp-web-tools/)
+
+ - [Installing ESPHome Manually | ESPHome](https://esphome.io/guides/installing_esphome.html)
+ 
+ - [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line.html)
+ 
+ - [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
+ 
+ - [ESPHome on the Raspberry Pi Pico! | Jeff Geerling](https://www.jeffgeerling.com/blog/2022/esphome-on-raspberry-pi-pico)
+ 
+ - [How to Start on Raspberry Pi Home Automation | ESPHome](https://www.instructables.com/How-to-Start-on-Raspberry-Pi-Home-Automation-ESPHo/)
+
+ - [ESPHome Setup | Integrating Home Assistant with Adafruit IO](https://learn.adafruit.com/integrating-adafruit-io-with-home-assistant/esphome-setup)
+
+### Install ESPHome using Home Assistant
+
+In [Home Assistant](https://www.home-assistant.io/integrations/esphome/) go to: 
+
+  **Configuration > Add-ons, Backups & Supervisor > Add-on Store (button in the lower right corner) or click on the My Home Assistant Link below:**
+
+Open your Home Assistant instance and show the Supervisor add-on store.
+
+[![ESPHome HA](https://user-images.githubusercontent.com/45159366/178136849-9a5deed7-beb8-4a62-aeda-ce9aec3fac3e.svg)](https://my.home-assistant.io/redirect/config_flow_start?domain=esphome)
+
+   -  Next, search for ESPHome, click on the result and then click on the Install button. 
+   
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137323-40fb0ec9-f35c-43d7-b60c-08588c89fd33.png">
+  <br />
+</p>
+   
+   -  When the installation is finished, the Install button will be replaced with Start button – click on it to start the ESPHome add-on. 
+   
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137277-b71897d5-2684-451c-af2f-ab85f9b1affa.png">
+  <br />
+</p>
+
+   -  Wait a few seconds for the ESPHome to start and then click on the Open Web UI button.
+   
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137097-7753aed9-c3e7-4fba-9b52-570771609572.png">
+  <br />
+</p>
+   
+### Install ESPHome using Docker
+
+  - First thing is to pull the [ESPHome Docker image from Docker Hub](https://hub.docker.com/u/esphome) (Online). 
+
+    ```docker pull esphome/esphome```
+
+  - Then, start the ESPHome wizard. This wizard will ask you about your device type, your device name, your WiFi credentials and finally will generate a yaml file containing all of the configurations for you. 
+   
+   ```docker run --rm -v "${PWD}":/config -it esphome/esphome wizard stl.yaml```
+  
+   -  Now, connect your ESP device to the device where Docker is running (either using an USB cable or Serial-To-USB adapter) and if you are on Linux type the following command :
+
+   ```dmesg | grep ttyUSB```
+   
+   - Put your device in programming mode (if needed) and execute the next command to install the ESPHome on the device connected to the /dev/ttyUSB1 using the configuration stored in stl.yaml file 
+   
+  ```docker run --rm -v "${PWD}":/config --device=/dev/ttyUSB1 -it esphome/esphome run stl.yaml```
+   
+### Install ESPHome using Python
+
+ - If you are on macOS or Linux check if Python 3.8 or later is installed by executing the command.
+  
+ ```python3 --version```
+  
+ - If you are on macOS, you need to install wheel and esphome packages by using the following command.
+  
+ ```pip3 install wheel esphome```
+  
+ - If you are on Linux, you have to install esphome package by using the following command.
+  
+  ```pip3 install --user esphome```
+   
+ - If you are on macOS or Linux you can start the ESPHome wizard using the following command.
+  
+  ```esphome wizard stl-python.yaml```
+   
+ - Finally, connect your ESP device to your Computer (using USB cable or Serial-To-usb adapter) and put it in programming mode (if needed). Then, Install ESPHome using the configuration in the stl-python.yaml file.
+  
+  ```esphome run stl-python.yaml```
 
 ## Setting Watchdog Timer (WDT) on Raspberry Pi
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
