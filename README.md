@@ -18,7 +18,9 @@
 1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide#models-of-raspberry-pi-boards)
 
 2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-learning-resources)
-    - [Books](https://github.com/mikeroyal/raspberry-pi-Guide#books)
+    - [Books](#books)
+    - [Podcasts](#podcasts)
+    - [YouTube Channels](#youtube-channels)
 
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-operating-systems)
 
@@ -319,6 +321,64 @@
 - [Raspberry Pi Essentials - Learn to Code with C](https://magpi.raspberrypi.com/books/essentials-c-v1)  
 
 - [Raspberry Pi Essentials - Making with Minecraft](https://magpi.raspberrypi.com/books/essentials-minecraft-v1)
+
+### Podcasts
+[Back to the Top](#table-of-contents)
+
+  - [HomeTech](https://www.hometech.fm/about)
+ 
+  - [Home Assistant](https://hasspodcast.io/episodes/)
+ 
+  - [HomeKit Insider](https://www.listennotes.com/podcasts/homekit-insider-appleinsider-y-ZPnq5l1B_/)
+  
+  - [Home Tech Talk](https://www.hometechtalk.com.au/)
+  
+  - [Self-Hosted Podcast](https://selfhosted.show/) 
+  
+  - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/)
+  
+  - [The Digital Lifestyle Show](https://podcasts.apple.com/us/podcast/the-digital-lifestyle-show/id217932939)
+  
+  - [Linux Weekly Daily Wednesday](https://podcasts.apple.com/us/podcast/linux-weekly-daily-wednesday/id1316136728)
+  
+  - [SBCGaming Podcast](https://podcasts.apple.com/us/podcast/sbcgaming-podcast/id1531624751)
+  
+  - [Adafruit Industries Podcast](https://podcasts.apple.com/us/podcast/adafruit-industries/id1086346278)
+
+### YouTube Channels
+[Back to the Top](#table-of-contents)
+
+  - [Raspberry Pi](https://www.youtube.com/c/raspberrypi)
+
+  - [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
+  
+  - [Level1Techs](https://www.youtube.com/c/Level1Techs)
+ 
+  - [Open Source is Awesome](https://www.youtube.com/c/AwesomeOpenSource)
+  
+  - [Self-Hosted Show by Jupiter Broadcasting](https://www.youtube.com/watch?v=XBhhVHVQ148&list=PLUW3LUwQvegxit4XMxUNW3qrRFmgP_aaT)
+ 
+  - [Techno Tim](https://www.youtube.com/c/TechnoTimLive)
+ 
+  - [Raid Owl](https://www.youtube.com/c/RaidOwl)
+  
+  - [NextCloud](https://www.youtube.com/c/Nextcloud)
+  
+  - [Wolfgang's Channel](https://www.youtube.com/c/WolfgangsChannel)
+  
+  - [Pro Tech Show](https://www.youtube.com/c/ProTechShow)
+  
+  - [Geeked](https://www.youtube.com/c/GeekedTV)
+  
+  - [The Tinker Dad](https://www.youtube.com/c/TheTinkerDad)
+  
+  - [DB Tech](https://www.youtube.com/c/DBTechYT)
+  
+  - [The Digital Life](https://www.youtube.com/c/TheDigitalLifeTech)
+ 
+  - [censiCLICK](https://www.youtube.com/c/censiCLICK)
+  
+  - [Home Network Geek](https://www.youtube.com/channel/UCCniXOLmZ85FHN8c8K_c0LA/featured)
 
 
 # Raspberry Pi Operating Systems
