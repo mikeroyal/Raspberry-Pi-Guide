@@ -18,7 +18,9 @@
 1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide#models-of-raspberry-pi-boards)
 
 2. [Raspberry Pi Learning Resources](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-learning-resources)
-    - [Books](https://github.com/mikeroyal/raspberry-pi-Guide#books)
+    - [Books](#books)
+    - [Podcasts](#podcasts)
+    - [YouTube Channels](#youtube-channels)
 
 3. [Raspberry Pi Operating Systems](https://github.com/mikeroyal/raspberry-pi-Guide#raspberry-pi-operating-systems)
 
