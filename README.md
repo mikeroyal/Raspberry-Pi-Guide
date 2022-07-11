@@ -1181,7 +1181,7 @@ sudo apt install cabextract libncurses5:armhf
 
 [OpenMediaVault](https://www.openmediavault.org/) is the next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, DAAP media server, RSync, BitTorrent client and many more.
 
-[Pi Music Box](https://www.pimusicbox.com/) is an application that turns your Raspberry Pi into music player for streaming Spotify, Google Music, SoundCloud, Webradio, Podcasts and other music from the cloud. Also, stream your own collection from a device in your local network.
+[Mopidy](https://mopidy.com/) is a free and open source application that can turn your Raspberry Pi into music player for streaming local files, Spotify, Google Music, SoundCloud, Webradio, Podcasts and other music from the cloud. Also, stream your own collection from a device in your local network.
 
 [Emby](https://emby.media/) is a media server designed to organize, play, and stream audio and video to a variety of devices(Android TV, Amazon Fire TV, Chromecast, Roku, Xbox, Home Theater Computers, and more). 
 
