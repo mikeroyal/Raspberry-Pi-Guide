@@ -30,6 +30,7 @@
      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
      - [Getting Started with Homebridge](#Homebridge)
      - [Getting Started with ESPHome](#ESPHome)
+     - [Turning Raspberry Pi into a Router](https://github.com/mikeroyal/raspberry-pi-Guide#Turning-Raspberry-Pi-into-a-Router)
      - [Setting up Watchdog Time (WDT) on Raspberry Pi](https://github.com/mikeroyal/Raspberry-Pi-Guide#setting-watchdog-timer-wdt-on-raspberry-pi)
 
 5. [Raspberry Pi Upgrades](https://github.com/mikeroyal/Raspberry-Pi-Guide#raspberry-pi-upgrades)
@@ -802,6 +803,55 @@ Open your Home Assistant instance and show the Supervisor add-on store.
  - Finally, connect your ESP device to your Computer (using USB cable or Serial-To-usb adapter) and put it in programming mode (if needed). Then, Install ESPHome using the configuration in the stl-python.yaml file.
   
   ```esphome run stl-python.yaml```
+  
+## Turning Raspberry Pi into a Router
+
+[Back to the Top](#table-of-contents)
+
+### Software
+
+[OpenWrt Project](https://openwrt.org/) is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. It's primarily used on embedded devices to route network traffic.
+
+  * [OpenWrt Wiki - Raspberry Pi setup](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi)
+
+**Download the appropriate OpenWrt image for your Raspberry PI by going to the link above.**
+
+### Tools to write the Homebridge image to your boot media(microSD card)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+### Hardware
+
+[Raspberry Pi Router Board for CM4 module (Cost: $55 USD)](https://www.seeedstudio.com/CM4-Router-Board-p-5211.html) is an expansion board based on the Raspberry Pi Compute Module 4. It brings Raspberry Pi CM4 two full-speed gigabit network ports and offers better performance, lower CPU usage, and higher stability for a long time work compared with a USB network card. It's compatible with [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi) and other Raspberry Pi systems.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183271470-728741bd-0d52-480d-8ebe-8c9817589093.png">
+  <br />
+  Raspberry Pi Router Board for CM4 module
+</p>
+
+**Technical Specs:**
+
+ * Compatible Module: Raspberry Pi Compute Module 4 series.
+ * BCM2711 4 core @ 1.5GHz Cortex-A72.
+ * Support standard Raspberry Pi HAT interface.
+ * Support POE HAT to supply power to the board.
+ * Support POE HAT for external power supply.
+ * Full-speed dual gigabit network interface.
+ * Master-slave dual USB2.0 interface.
+ * Micro SD card slot, used to support non-eMMC version of CM4.
+ * Standard HDMI video output interface.
+ * 0.91 inch IIC OLED display.
+ * 5V DC fan interface(Support controlling via PWM signal).
+ * Ethernet: high-performance Gigabit ethernet controller RTL8111E chip, JXD 2111x G2406s chip as isolation transformer.
+   * Port0: Compute Module 4 Built-In.
+   * Port1: PCI Express 1000BASE-T NIC.
+ * GPIO: 40-Pin GPIO compatible with Raspberry Pi.
 
 ## Setting Watchdog Timer (WDT) on Raspberry Pi
 [Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide#table-of-contents)
