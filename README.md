@@ -816,7 +816,7 @@ Open your Home Assistant instance and show the Supervisor add-on store.
 
 **Download the appropriate OpenWrt image for your Raspberry PI by going to the link above.**
 
-### Tools to write the Homebridge image to your boot media(microSD card)
+### Tools to write the Operating System (OS) image to your boot media(microSD card)
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 
