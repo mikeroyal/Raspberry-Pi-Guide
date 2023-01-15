@@ -455,13 +455,19 @@
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
+[Kubernetes on ARM](https://github.com/luxas/kubernetes-on-arm) is a tool to get your ARM device up and running Kubernetes in less than ten minutes.
+
+[Uptime Kuma](https://uptime.kuma.pet/) is a self-hosted monitoring tool like "Uptime Robot".
+
+[k8sup](https://k3sup.dev/) is a tool that uses ssh to install k3s to a remote Linux host. You can also use it to join existing Linux hosts into a k3s cluster as agents.
+
+[arkade](https://github.com/alexellis/arkade) is an Open Source Marketplace For Kubernetes letting developers install the latest versions of their favourite tools and Kubernetes apps.
+
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
 [PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
 
 [Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
-
-[Kubernetes on ARM](https://github.com/luxas/kubernetes-on-arm) is a tool to get your ARM device up and running Kubernetes in less than ten minutes.
 
 ## File systems
 
