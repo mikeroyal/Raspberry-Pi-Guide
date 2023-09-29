@@ -84,9 +84,76 @@
 
 # Models of Raspberry Pi boards
 
-[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](#table-of-contents)
 
-**Raspberry Pi 4 Model B**
+##  Raspberry Pi 5
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Raspberry-Pi-Guide/assets/45159366/8233f5a4-ecbd-43ac-a644-eb133176f9d1">
+</br>
+</p>
+
+Raspberry Pi 5 board. Image credit: [Raspberry Pi](https://www.raspberrypi.com/news/introducing-raspberry-pi-5/)
+
+ * [Raspberry Pi Approved Resellers](https://www.raspberrypi.com/resellers/)
+ * [Get your Raspberry Pi 5 first | HackSpace](http://hsmag.cc/priorityboarding)
+ * [Priority Boarding - get your Raspberry Pi 5 first | The MagPi](https://magpi.raspberrypi.com/articles/priorityboarding)
+
+[![Introducing Raspberry Pi 5](https://ytcards.demolab.com/?id=yul4gq_LrOI&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Introducing Raspberry Pi 5")](https://www.youtube.com/watch?v=yul4gq_LrOI)
+[![Eben Upton introduces Raspberry Pi 5](https://ytcards.demolab.com/?id=oo5wb4LDWW4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Eben Upton introduces Raspberry Pi 5")](https://www.youtube.com/watch?v=oo5wb4LDWW4)
+[![Raspberry Pi 5: EVERYTHING you need to know](https://ytcards.demolab.com/?id=nBtOEmUqASQ&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Raspberry Pi 5: EVERYTHING you need to know")](https://www.youtube.com/watch?v=nBtOEmUqASQ)
+
+[The Raspberry Pi 5](https://www.raspberrypi.com/news/introducing-raspberry-pi-5/) has a 16nm Broadcom BCM2712 (Arm Cortex-A76 quad-core 64-bit CPU @ 2.4 GHz), which is 2-3 times faster than the [Raspberry Pi 4 (Arm Cortex A72—a)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/). The GPU is a [Broadcom VideoCore VII](https://en.wikipedia.org/wiki/VideoCore), capable of driving dual 4K/60 Hz HDMI displays, and it comes with open source [Mesa drivers](https://mesa3d.org/).
+
+
+|Raspberry Pi 5 Full Hardware Specs ||
+|--------------|:-----------:|
+|ISA |	ARMv8.2-A (64-bit)|	
+|Microarchitecture|	Cortex-A76|		
+|Core name	|	Cortex-A76	|	
+|Family	|	BCM	|
+|Part number(s), S-Spec| BCM2712|		
+|Lithography |		16 nm|	
+|Cores|	4|	
+|Threads|	4|	
+|Base frequency|	1.5 GHz|	
+|Turbo frequency|	2.4 GHz|	
+|Details	|	4x ARM Cortex-A76 @ 1.5 / 2.4 GHz|		
+|Cache memory	|	2 MB	|	
+|Max memory	|	8 GB	|	
+|Memory types	|	LPDDR4X-4267 SDRAM (4GB and 8GB SKUs available at launch)|		
+|Max memory bandwidth	|	13.7 GB/s|		
+|Max PCIe lanes	|	1	|	
+|TDP	|	12 W	|	
+|GPU integrated graphics | [Broadcom VideoCore VII](https://en.wikipedia.org/wiki/VideoCore), supporting OpenGL ES 3.1, Vulkan 1.2|	
+|GPU execution units	|	4	|	
+|GPU shading units	|	64 |		
+|GPU clock	|	800 MHz	|	
+|GPU FP32 floating point	|	51.2 GFLOPS	|	
+|Socket	|	SoC	|
+|Drystone MIPS	|	110,880 DMIPS	|	
+|Max display resolution	| Dual 4Kp60 HDMI® display output with HDR support|		
+|Video decoding	| 	H.265 4K@60fps, H.264 1080p@60fps|		
+|Video encoding	|-|
+|Max video capture	|	MIPI CSI	|	
+|Modem	|	Gigabit Ethernet Broadcom BCM54213PE|		
+|Connectivity	|	USB 2.0, USB 3.0, HDMI 2.0|		
+|Wi-Fi	|	Wi-Fi 5 802.11 ac	|	
+|Bluetooth		| Bluetooth 5.0, LE|		
+|Audio	|	I2S|
+
+#### Raspberry Pi 5 Benchmarks
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Raspberry-Pi-Guide/assets/45159366/abd40a0c-1e35-4d00-8e8a-9387121e1c36">
+</br>
+</p>
+
+Raspberry Pi 5 Benchmark score. Image Credit: [GadgetVersus](https://gadgetversus.com/processor/broadcom-bcm2712-specs/)
+
+## Raspberry Pi 4 Model B
+
+[Back to the Top](#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
@@ -106,7 +173,9 @@
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
 
-**Raspberry Pi 400 Personal Computer Kit**
+## Raspberry Pi 400 Personal Computer Kit
+
+[Back to the Top](#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
@@ -126,7 +195,9 @@
  - 2 × micro-HDMI ports (up to 4kp60 supported)
  - OpenGL ES 3.0 graphics
  
- **Raspberry Pi Zero 2 W**
+## Raspberry Pi Zero 2 W
+
+[Back to the Top](#table-of-contents)
  
 [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK. With a quad-core 64-bit ARM Cortex-A53 processor clocked at 1GHz and 512MB of SDRAM, Zero 2 is up to five times as fast as the original Raspberry Pi Zero.
 
@@ -150,7 +221,9 @@
 - OpenGL ES 1.1, 2.0 graphics
 - Micro USB power
  
- **Raspberry Pi Pico Microcontroller**
+ ## Raspberry Pi Pico Microcontroller
+
+ [Back to the Top](#table-of-contents)
  
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
@@ -175,7 +248,9 @@
  - Temperature sensor
  - Accelerated integer and floating-point libraries on-chip
  
-**Raspberry Pi Pico W**
+## Raspberry Pi Pico W
+
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/) is just like the classic Pico but adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW4343 while retaining the Pico form factor. 
 
@@ -199,7 +274,9 @@
  - Accurate on-chip clock
  - Temperature sensor
  
-**Raspberry Pi Pico W**
+## Raspberry Pi Pico H
+
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi Pico H](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/) is just like the classic Pico but now comes with pre-soldered headers. A [3-pin JTAG connector](https://datasheets.raspberrypi.com/debug/debug-connector-specification.pdf) is now pre-soldered for debugging. 
 
@@ -223,7 +300,9 @@
  - Accurate on-chip clock
  - Temperature sensor
 
-**Raspberry Pi RP2040**
+## Raspberry Pi RP2040
+
+[Back to the Top](#table-of-contents)
 
 [RP2040](https://www.raspberrypi.com/products/rp2040/) is a microcontroller chip designed by Raspberry Pi.
 
@@ -256,7 +335,7 @@
 
 # Raspberry Pi Learning Resources
 
-[Back to the Top](https://github.com/mikeroyal/raspberry-pi-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
 
