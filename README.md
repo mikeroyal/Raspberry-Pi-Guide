@@ -21,7 +21,7 @@
 1. [Models of Raspberry Pi boards](https://github.com/mikeroyal/raspberry-pi-Guide#models-of-raspberry-pi-boards)
     - [Raspberry Pi 5](#raspberry-pi-5)
     - [Raspberry Pi 4 Model B](#raspberry-pi-4-model-b)
-    - [Raspberry Pi 400](#raspberry-pi-400)
+    - [Raspberry Pi 400](#raspberry-pi-400-personal-computer-kit)
     - [Raspberry Pi Zero 2 W](#raspberry-pi-zero-2-w)
     - [Raspberry Pi Pico Microcontroller](#raspberry-pi-pico-microcontroller)
     - [Raspberry Pi Pico W](#raspberry-pi-pico-w)
