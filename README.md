@@ -7,6 +7,9 @@
  <a href="https://github.com/mikeroyal?tab=followers">
          <img alt="followers" title="Follow me for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 	
 
+![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)
+![Last-Commit](https://img.shields.io/github/last-commit/mikeroyal/raspberry-pi-guide?style=for-the-badge)
+
 #### A guide covering Raspberry Pi devices such as the Raspberry Pi 4 Model B and Raspberry Pi 400. Along with a wide variety of operating systems that you can install on your Raspberry Pi device. Also, learn about cool projects that you can build with your Raspberry Pi device.
 
 
